@@ -17,6 +17,10 @@
   font-size: 1rem;
   font-weight: 600;
 }
+.all-title {
+  font-size: 3rem;
+  font-weight: 900;
+}
 
 /* Body Style */
 .body {
@@ -154,3 +158,267 @@
   border: 1px solid rgb(255, 255, 255);
 }
 /* Header finished */
+/* habit-sec */
+.habit-sec {
+  text-align: center;
+  margin-top: 100px;
+}
+.container {
+  text-align: center;
+  color: white;
+}
+.circle-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 20px;
+}
+
+.circle-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.habit-main {
+  display: flex;
+  margin-top: 50px;
+}
+/* habit-sec finisdh */
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2d2d2d; /* Dark background for card */
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 1060px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card-content {
+  flex: 1;
+  padding-right: 20px;
+}
+.card-content h1 {
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+
+.card-content p {
+  margin-left: 50px;
+  margin-bottom: 20px;
+  color: lightgray;
+}
+.nn {
+  margin-left: 50px;
+}
+
+.card-image img {
+  width: 366px;
+  height: 312px;
+  border-radius: 20px;
+}
+.run {
+  margin-top: 100px;
+}
+/* bmi - calculator */
+.bmi-contain {
+  text-align: center;
+  margin-top: 50px;
+}
+.container {
+  display: flex;
+  gap: 20px;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1440px;
+  height: 487px;
+}
+/* .bmi-chart {
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+} */
+.bmi-chart h2,
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #444;
+  padding: 8px;
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.input-group input,
+.input-group select,
+input,
+select,
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+  width: 100%;
+}
+
+button {
+  background-color: #ff5722;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #e64a19;
+}
+.ipt-one {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+.out-team {
+  text-align: center;
+}
+/*  */
+.team-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.team-section h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.team-description {
+  font-size: 1em;
+  color: #aaa;
+  margin-bottom: 30px;
+}
+
+.team-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.team-member {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.team-member:hover {
+  transform: scale(1.05);
+}
+
+.team-member img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.member-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.member-info h3 {
+  font-size: 1.2em;
+  margin: 10px 0 5px;
+}
+
+.member-info p {
+  font-size: 0.9em;
+  color: #ffffff;
+}
+/* footer */
+.footer {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 40px 20px;
+
+  margin-top: 100px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #444;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-logo h2 {
+  color: #ff5722;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.footer-logo p {
+  color: #aaa;
+  font-size: 0.9em;
+  max-width: 250px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-column h3 {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.footer-column ul li a:hover {
+  color: #ff5722;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 0.8em;
+  color: #777;
+}
